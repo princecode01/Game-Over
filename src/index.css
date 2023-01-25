@@ -1,13 +1,100 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  margin: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  /* padding-top: 60px; */
+  color: #aaa;
+  background-color: #272b30;
+}
+
+.navbar {
+  background-color: #272b30 !important;
+  border-bottom: 1px solid rgba(28, 28, 28, .6);
+  text-shadow: 1px 1px 1px rgb(0 0 0 / 30%);
+
+}
+
+.logo {
+  width: 65px;
+}
+
+.navbar-brand {
+  font-family: Xanh Mono, monospace !important;
+  margin-right: 60px !important;
+  color: #aaa !important;
+}
+
+.nav-link {
+  color: #aaa !important;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.up {
+  background-color: #1c1e22 !important;
+  border: 0 solid rgba(0, 0, 0, .6) !important;
+  border-radius: 5px !important;
+}
+
+.btn-outline-danger:hover {
+  color: aliceblue !important;
+}
+
+.submit {
+  background-color: #3a3f44 !important;
+  border-color: #22241d !important;
+  color: aliceblue;
+}
+
+.game-content {
+  background-color: #32383e;
+  background-clip: border-box;
+  border: 0 solid rgba(0, 0, 0, .6);
+  border-radius: .25rem;
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+  /* border-radius: 5px !important; */
+}
+
+.game:hover {
+  transform: scale(1.06);
+}
+
+.text-gray {
+  color: rgb(169, 169, 169);
+}
+
+.bg-light-blue {
+  background-color: #4799eb;
+}
+
+.fs-small {
+  font-size: 12px;
+}
+
+.game-card {
+  transition: transform 0.2s;
+}
+
+.game-card:hover {
+  transform: scale(1.05);
+}
+
+.g-card-text-size {
+  font-size: 24px;
+}
+
+@media only screen and (max-width: 997px) {
+
+  .login-img {
+    display: none;
+  }
+
 }
